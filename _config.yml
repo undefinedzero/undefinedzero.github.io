@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Your Blog
 SEOTitle: 你的博客 | Your Blog
@@ -98,3 +99,6 @@ friends: [
         href: "#"
     }
 ]
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 8b6e2410e6df114a6c536e1e8cf7edc7d12a141b
