@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: l_j_n@163.com
 description: "One Place"
 keyword: "One Place"
-url: "http://undefinedzero.github.io"              # your host, for absolute URL
+url: "https://undefinedzero.github.io"              # your host, for absolute URL
 baseurl: "/"            # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -65,7 +65,7 @@ duoshuo_share: false                     # set to false if you want to use Comme
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Just For Fun"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/photo-Lin.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -78,19 +78,10 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "My",
-        href: "#"
+        title: "My University",
+        href: "http://www.zju.edu.cn"
     },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
+        title: "HelloWorld Team",
+        href: "https://github.com/HelloWorldTeam"
     }
 ]
