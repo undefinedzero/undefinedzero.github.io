@@ -4,20 +4,16 @@ title: One Place
 SEOTitle: 一个地方 | One Place
 header-img: img/home-bg.jpg
 email: l_j_n@163.com
-description: ""
-keyword: ""
+description: "One Place"
+keyword: "One Place"
 url: "http://undefinedzero.github.io"              # your host, for absolute URL
-baseurl: "/huxblog-boilerplate"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-#weibo_username:     huxpro
-#zhihu_username:     huxpro
 github_username:    undefinedzero
-#twitter_username:  huxpro
-#facebook_username:  huxpro
 
 
 
