@@ -7,7 +7,7 @@ email: l_j_n@163.com
 description: "One Place"
 keyword: "One Place"
 url: "http://undefinedzero.github.io"              # your host, for absolute URL
-baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
