@@ -13,7 +13,7 @@ baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blo
 
 # SNS settings
 RSS: false
-github_username:    undefinedzero
+github_username: undefinedzero
 
 
 
