@@ -78,7 +78,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "My University",
+        title: "Zhejiang University",
         href: "http://www.zju.edu.cn"
     },{
         title: "HelloWorld Team",

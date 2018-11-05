@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "Serial Program for ROS"
+subtitle:   " \"Hello World to ROS\""
+date:       2018-8-12
+author:     "LIN JIANING"
+header-img: "img/post-serial-ros.jpg"
+tags:
+    - ROS
+---
 # ROS_SERIAL //ROS 串口
 
 ```
