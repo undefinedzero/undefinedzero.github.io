@@ -5,8 +5,8 @@
     <description>Aiur</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Nov 2018 16:37:34 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Nov 2018 16:37:34 +0800</lastBuildDate>
+    <pubDate>Tue, 06 Nov 2018 16:47:06 +0800</pubDate>
+    <lastBuildDate>Tue, 06 Nov 2018 16:47:06 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -65,6 +65,8 @@
         <title>Serial Program for ROS</title>
         <description>&lt;h1 id=&quot;ros_serial-ros-串口&quot;&gt;ROS_SERIAL //ROS 串口&lt;/h1&gt;
 
+&lt;h2 id=&quot;drivers&quot;&gt;Drivers&lt;/h2&gt;
+
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.serial包安装（serial-1.2.1）
 make install
 2.CH341驱动安装（CH341***）
@@ -74,6 +76,79 @@ make load
 5.rosrun *** ***
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
+&lt;h2 id=&quot;program&quot;&gt;Program&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-C++&quot;&gt;#include &amp;lt;ros/ros.h&amp;gt; 
+#include &amp;lt;serial/serial.h&amp;gt;  //ROS已经内置了的串口包 
+#include &amp;lt;std_msgs/String.h&amp;gt; 
+#include &amp;lt;std_msgs/Empty.h&amp;gt; 
+  
+serial::Serial ser; //声明串口对象 
+  
+//回调函数 
+void write_callback(const std_msgs::String::ConstPtr&amp;amp; msg) 
+{ 
+    ROS_INFO_STREAM(&quot;Writing to serial port&quot; &amp;lt;&amp;lt;msg-&amp;gt;data); 
+    ser.write(msg-&amp;gt;data);   //发送串口数据 
+} 
+  
+int main (int argc, char** argv) 
+{ 
+    //初始化节点 
+    ros::init(argc, argv, &quot;serial_example_node&quot;); 
+    //声明节点句柄 
+    ros::NodeHandle nh; 
+  
+    //订阅主题，并配置回调函数 
+    ros::Subscriber write_sub = nh.subscribe(&quot;write&quot;, 1000, write_callback); 
+    //发布主题 
+    ros::Publisher read_pub = nh.advertise&amp;lt;std_msgs::String&amp;gt;(&quot;read&quot;, 1000); 
+  
+    try 
+    { 
+    //设置串口属性，并打开串口 
+        ser.setPort(&quot;/dev/ttyUSB0&quot;); 
+        ser.setBaudrate(115200); 
+        serial::Timeout to = serial::Timeout::simpleTimeout(1000); 
+        ser.setTimeout(to); 
+        ser.open(); 
+    } 
+    catch (serial::IOException&amp;amp; e) 
+    { 
+        ROS_ERROR_STREAM(&quot;Unable to open port &quot;); 
+        return -1; 
+    } 
+  
+    //检测串口是否已经打开，并给出提示信息 
+    if(ser.isOpen()) 
+    { 
+        ROS_INFO_STREAM(&quot;Serial Port initialized&quot;); 
+    } 
+    else 
+    { 
+        return -1; 
+    } 
+  
+    //指定循环的频率 
+    ros::Rate loop_rate(50); 
+    while(ros::ok()) 
+    { 
+  
+        if(ser.available()){ 
+            ROS_INFO_STREAM(&quot;Reading from serial port\n&quot;); 
+            std_msgs::String result; 
+            result.data = ser.read(ser.available()); 
+            ROS_INFO_STREAM(&quot;Read: &quot; &amp;lt;&amp;lt; result.data); 
+            read_pub.publish(result); 
+        } 
+
+        //处理ROS的信息，比如订阅消息,并调用回调函数 
+        ros::spinOnce(); 
+        loop_rate.sleep(); 
+  
+    } 
+} 
+&lt;/code&gt;&lt;/pre&gt;
 </description>
         <pubDate>Sun, 12 Aug 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2018/08/12/ros-serial/</link>
@@ -90,7 +165,7 @@ make load
 
 &lt;h2 id=&quot;1-macos-安装软件&quot;&gt;1. macOS 安装软件&lt;/h2&gt;
 
-&lt;h3 id=&quot;brew&quot;&gt;brew&lt;/h3&gt;
+&lt;h3 id=&quot;homebrew&quot;&gt;Homebrew&lt;/h3&gt;
 
 &lt;h4 id=&quot;brew-包管理软件-非常实用&quot;&gt;brew 包管理软件 非常实用&lt;/h4&gt;
 
@@ -98,7 +173,23 @@ make load
 
 &lt;h3 id=&quot;iterm2&quot;&gt;iTerm2&lt;/h3&gt;
 
-&lt;h3 id=&quot;aria2&quot;&gt;aria2&lt;/h3&gt;
+&lt;p&gt;装了主题之后非常帅气，可以Google zsh/iTerm2的教程&lt;/p&gt;
+
+&lt;h3 id=&quot;python&quot;&gt;Python&lt;/h3&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;可以用homebrew安装方便管理，同时，homebrew在安装&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenCV&lt;/code&gt;时，会顺带安装&lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;要小心，可能会把版本搞乱&lt;/p&gt;
+
+&lt;h3 id=&quot;icloud&quot;&gt;iCloud&lt;/h3&gt;
+
+&lt;p&gt;Mac的大部分设置和文档可以通过iCloud进行恢复非常方便，不过前提是iCloud有足够的空间&lt;/p&gt;
+
+&lt;h3 id=&quot;parallel-desktop&quot;&gt;Parallel Desktop&lt;/h3&gt;
+
+&lt;p&gt;虚拟机，可以用来安装Windows，比较有用，但是对一些程序兼容性不好&lt;/p&gt;
+
+&lt;h3 id=&quot;xcodecommand-line-tools&quot;&gt;Xcode(Command Line Tools)&lt;/h3&gt;
+
+&lt;p&gt;安装之后才可以使用别的IDE，如Clion等&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 Mar 2018 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2018/03/22/macOS-upgrade/</link>
