@@ -14,28 +14,44 @@ tags:
 
 ## rvm(Ruby Version Manager)
 
-1. install rvm
+1.install rvm
 
 ```shell
 curl -L get.rvm.io | bash -s stable  
 ```
 
-2. list all Ruby
+2.list all Ruby
 
 ```bash
 rvm list
 ```
 
-3. install Ruby by rvm
+3.install Ruby by rvm
 
 ```bash
 rvm install ruby 2.*
 ```
-4. check the version of Ruby
+
+4.check the version of Ruby
+
 ```bash
 ruby -v
 ```
-5. update  gem
+
+5.update  gem
+
 ```bash
 gem update --system
+```
+
+6.Install jekyll
+
+```bash
+gem intall jekyll jekyll-paginate
+```
+
+7.command to run jekyll locally
+
+```bash
+jekyll serve build
 ```
