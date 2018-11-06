@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aiur</title>
+    <description>Aiur</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 06 Nov 2018 16:30:04 +0800</pubDate>
+    <lastBuildDate>Tue, 06 Nov 2018 16:30:04 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>macOS install ruby</title>
+        <description>&lt;h1 id=&quot;macos-install-ruby&quot;&gt;macOS install ruby&lt;/h1&gt;
+
+&lt;h2 id=&quot;rvmruby-version-manager&quot;&gt;rvm(Ruby Version Manager)&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;install rvm&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-L&lt;/span&gt; get.rvm.io | bash &lt;span class=&quot;nt&quot;&gt;-s&lt;/span&gt; stable  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;list all Ruby&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rvm list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;install Ruby by rvm&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rvm &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;ruby 2.&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;ol&gt;
+  &lt;li&gt;check the version of Ruby
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;update  gem
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem update &lt;span class=&quot;nt&quot;&gt;--system&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 06 Nov 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/11/06/macOS-install-ruby/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/11/06/macOS-install-ruby/</guid>
+        
+        <category>Mac</category>
+        
+        <category>Ruby</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Serial Program for ROS</title>
+        <description>&lt;h1 id=&quot;ros_serial-ros-串口&quot;&gt;ROS_SERIAL //ROS 串口&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.serial包安装（serial-1.2.1）
+make install
+2.CH341驱动安装（CH341***）
+make load
+3.source setup.bash
+4.roscore
+5.rosrun *** ***
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Sun, 12 Aug 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/08/12/ros-serial/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/12/ros-serial/</guid>
+        
+        <category>ROS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Reinstall macOS</title>
+        <description>&lt;h1 id=&quot;macos重生&quot;&gt;macOS·重生&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-macos-安装软件&quot;&gt;1. macOS 安装软件&lt;/h2&gt;
+
+&lt;h3 id=&quot;brew&quot;&gt;brew&lt;/h3&gt;
+
+&lt;h4 id=&quot;brew-包管理软件-非常实用&quot;&gt;brew 包管理软件 非常实用&lt;/h4&gt;
+
+&lt;p&gt;一般的软件例如：&lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt;，以及常用库，如：&lt;code class=&quot;highlighter-rouge&quot;&gt;OpenCV&lt;/code&gt;，均可通过&lt;code class=&quot;highlighter-rouge&quot;&gt;brew install&lt;/code&gt;安装&lt;/p&gt;
+
+&lt;h3 id=&quot;iterm2&quot;&gt;iTerm2&lt;/h3&gt;
+
+&lt;h3 id=&quot;aria2&quot;&gt;aria2&lt;/h3&gt;
+</description>
+        <pubDate>Thu, 22 Mar 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/03/22/macOS-upgrade/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/22/macOS-upgrade/</guid>
+        
+        <category>Mac</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
