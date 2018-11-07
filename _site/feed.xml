@@ -5,8 +5,8 @@
     <description>Aiur</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Nov 2018 16:52:00 +0800</pubDate>
-    <lastBuildDate>Tue, 06 Nov 2018 16:52:00 +0800</lastBuildDate>
+    <pubDate>Wed, 07 Nov 2018 15:57:16 +0800</pubDate>
+    <lastBuildDate>Wed, 07 Nov 2018 15:57:16 +0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -155,6 +155,140 @@ int main (int argc, char** argv)
         <guid isPermaLink="true">http://localhost:4000/2018/08/12/ros-serial/</guid>
         
         <category>ROS</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Talk with my girlfriend one day</title>
+        <description>&lt;h1 id=&quot;talk-with-my-girlfriend&quot;&gt;Talk with my girlfriend&lt;/h1&gt;
+
+&lt;h3 id=&quot;beginning&quot;&gt;Beginning&lt;/h3&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;...
+- 你是我的宝贝
+- 我不相信
+- 真的呀
+- 林嘉宁大傻子
+- 李梦园小可爱
+- 这个我知道啊
+- 我不是大傻子
+- 那你是什么
+- 小傻子
+- 我知道啦，你是大猪蹄子
+- #define 林嘉宁 大猪蹄子
+- 鼓掌鼓掌👏👏👏👏
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;林嘉宁&lt;/th&gt;
+      &lt;th&gt;大猪蹄子&lt;/th&gt;
+      &lt;th&gt;大猪蹄子&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;李梦园&lt;/td&gt;
+      &lt;td&gt;聪明&lt;/td&gt;
+      &lt;td&gt;可爱&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;moreover&quot;&gt;Moreover&lt;/h3&gt;
+
+&lt;p&gt;请在下文描述女朋友的三十个优点：&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;可爱&lt;/li&gt;
+    &lt;li&gt;美丽&lt;/li&gt;
+    &lt;li&gt;善良&lt;/li&gt;
+    &lt;li&gt;真诚&lt;/li&gt;
+    &lt;li&gt;有爱心&lt;/li&gt;
+    &lt;li&gt;优秀&lt;/li&gt;
+    &lt;li&gt;调皮&lt;/li&gt;
+    &lt;li&gt;不传统&lt;/li&gt;
+    &lt;li&gt;有深度&lt;/li&gt;
+    &lt;li&gt;非人类&lt;/li&gt;
+    &lt;li&gt;学习认真&lt;/li&gt;
+    &lt;li&gt;上课记笔记&lt;/li&gt;
+    &lt;li&gt;没干正事就会难受&lt;/li&gt;
+    &lt;li&gt;坚持锻炼身体&lt;/li&gt;
+    &lt;li&gt;学游泳很快&lt;/li&gt;
+    &lt;li&gt;可以一下子看破装逼的本质&lt;/li&gt;
+    &lt;li&gt;谦逊又不失自己的观点&lt;/li&gt;
+    &lt;li&gt;总能说服别人&lt;/li&gt;
+    &lt;li&gt;喜欢欺负林嘉宁但是会道歉&lt;/li&gt;
+    &lt;li&gt;节俭不爱花钱&lt;/li&gt;
+    &lt;li&gt;喜欢吃，但是有节制&lt;/li&gt;
+    &lt;li&gt;有时候懒（正好我也可以懒一下&lt;/li&gt;
+    &lt;li&gt;很有志向（感觉将来要当教授了&lt;/li&gt;
+    &lt;li&gt;计划性很强，执行力也还行&lt;/li&gt;
+    &lt;li&gt;目标明确知道自己要干嘛&lt;/li&gt;
+    &lt;li&gt;有点小依赖林嘉宁吧&lt;/li&gt;
+    &lt;li&gt;活泼、闹腾（虽然在林嘉宁累的时候是缺点啦&lt;/li&gt;
+    &lt;li&gt;喜欢闯荡，感觉心里有匹野马想出去看看（林嘉宁要跟不上咯&lt;/li&gt;
+    &lt;li&gt;会带我吃好吃的（唉谁叫我自带选到难吃的东西的属性&lt;/li&gt;
+    &lt;li&gt;懂得生活&lt;/li&gt;
+    &lt;li&gt;撒娇贼厉害，受不了了呢&lt;/li&gt;
+    &lt;li&gt;最大的优点是爱超超&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;请在下文写出林嘉宁的三十个优点&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;帅气&lt;/li&gt;
+    &lt;li&gt;学会了收拾自己&lt;/li&gt;
+    &lt;li&gt;会听别人的建议&lt;/li&gt;
+    &lt;li&gt;精致的猪猪男孩&lt;/li&gt;
+    &lt;li&gt;穿衣有品位&lt;/li&gt;
+    &lt;li&gt;技术宅男&lt;/li&gt;
+    &lt;li&gt;有好多奇怪的技能&lt;/li&gt;
+    &lt;li&gt;好奇心重&lt;/li&gt;
+    &lt;li&gt;喜欢钻研&lt;/li&gt;
+    &lt;li&gt;有耐心学习不知道的事情&lt;/li&gt;
+    &lt;li&gt;实践能力强（一定是因为林桑爱瞎搞）&lt;/li&gt;
+    &lt;li&gt;会吹逼（带出去不会输给老严哈哈哈&lt;/li&gt;
+    &lt;li&gt;有好多可以唬到别人小玩意 —&amp;gt;还不是因为会花钱&lt;/li&gt;
+    &lt;li&gt;责任心很强（但是英雄不太强👍&lt;/li&gt;
+    &lt;li&gt;愿意帮别人 ==比如可爱园园啦&lt;/li&gt;
+    &lt;li&gt;说话直接（傻乎乎的&lt;/li&gt;
+    &lt;li&gt;自制力强 嘿嘿嘿&lt;/li&gt;
+    &lt;li&gt;人有点善良ba&lt;/li&gt;
+    &lt;li&gt;很少生别人的气😌&lt;/li&gt;
+    &lt;li&gt;和老朋友保持联系&lt;/li&gt;
+    &lt;li&gt;会给园园买好吃的，比如冰淇淋🍦&lt;/li&gt;
+    &lt;li&gt;有点绅士吧，会帮女孩子提东西、当然别的女孩子是不可以的&lt;/li&gt;
+    &lt;li&gt;孝顺。很少和爸妈顶嘴，会陪爸妈吃饭饭&lt;/li&gt;
+    &lt;li&gt;上进心强。虽然看上去一副。。但做起事来超认真的&lt;/li&gt;
+    &lt;li&gt;布线大师。整洁又勤劳的林桑&lt;/li&gt;
+    &lt;li&gt;温柔，很多很多时候都会想到园园&lt;/li&gt;
+    &lt;li&gt;每天都愿意接送园园&lt;/li&gt;
+    &lt;li&gt;懂得生活与学习间的界限&lt;/li&gt;
+    &lt;li&gt;不自私。会让园园玩他的玩具们&lt;/li&gt;
+    &lt;li&gt;最大的优点，就是有超可爱的女朋友啦。太厉害啦&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;欢迎观看本周精彩内容，我们下次再见👋！！！&lt;/p&gt;
+
+&lt;p&gt;2018.08.好几号&lt;/p&gt;
+
+&lt;p&gt;制片人：打字超快的冰淇淋情侣👫&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Aug 2018 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2018/08/05/Flipped/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/05/Flipped/</guid>
+        
+        <category>❤️</category>
         
         
       </item>
