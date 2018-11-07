@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     private-post
 title:      "Talk with my girlfriend one day"
 subtitle:   "Just a talk with no meaning"
 date:       2018-8-5
