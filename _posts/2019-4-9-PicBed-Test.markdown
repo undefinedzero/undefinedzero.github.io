@@ -6,7 +6,7 @@ date:       2019-4-9
 author:     "LIN JIANING"
 header-img: "img/post-macos.jpg"
 tags:
-    - blog
+    - Blog
 ---
 
 # PCL 合成无mask点云
