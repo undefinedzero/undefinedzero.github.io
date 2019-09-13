@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jianing Lin / 艾尔 | Aiur"
+title                    : "艾尔 | Aiur"
 title_separator          : "-"
 name                     : &name "Jianing Lin"
 description              : &description "personal description"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Jianing Lin"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "Now majoring in Robotics for Master's degree at Ann Arbor and want to be a Robo Master(Laugh)"
   location         : "Ann Arbor"
   employer         :
