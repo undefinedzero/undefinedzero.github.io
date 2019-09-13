@@ -5,6 +5,7 @@ subtitle:   "There is something wrong with my macbook, so I have to reinstall th
 date:       2018-3-22
 author:     "LIN JIANING"
 header-img: "img/post-macos.jpg"
+permalink: /posts/2018/3/Reinstall macOS/
 tags:
     - Mac
 ---

@@ -1,10 +1,10 @@
 ---
-layout:     post
 title:      "Serial Program for ROS"
 subtitle:   " \"Hello World to ROS\""
 date:       2018-8-12
 author:     "LIN JIANING"
 header-img: "img/post-serial-ros.jpg"
+permalink: /posts/2018/08/Serial Program for ROS/
 tags:
     - ROS
 ---

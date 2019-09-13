@@ -5,6 +5,7 @@ subtitle:   "Just a talk with no meaning"
 date:       2018-8-5
 author:     "LIN JIANING"
 header-img: "img/post-talks.jpg"
+permalink: /posts/2018/08/Talk with my girlfriend one day/
 tags:
    - ❤️
 ---

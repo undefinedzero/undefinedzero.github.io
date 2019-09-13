@@ -5,6 +5,7 @@ subtitle:   "Test the Blog locally"
 date:       2018-11-6
 author:     "LIN JIANING"
 header-img: "img/post-macos.jpg"
+permalink: /posts/2018/11/macOS install ruby/
 tags:
     - Mac
     - Ruby
