@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      "PicBed Test"
 subtitle:   "Test PicBed"
 date:       2019-4-9
