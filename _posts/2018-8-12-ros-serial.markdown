@@ -27,7 +27,7 @@ make load
 
 ## Program
 
-```C++
+```
 #include <ros/ros.h> 
 #include <serial/serial.h>  //ROS已经内置了的串口包 
 #include <std_msgs/String.h> 
