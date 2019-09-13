@@ -3,7 +3,7 @@ title:      "PicBed Test"
 subtitle:   "Test PicBed"
 date:       2019-4-9
 author:     "LIN JIANING"
-header-img: "img/post-macos.jpg"
+permalink: /posts/2019/04/PicBed-Test/
 tags:
     - Blog
 ---
