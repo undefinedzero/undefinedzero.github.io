@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      "Reinstall macOS"
 subtitle:   "There is something wrong with my macbook, so I have to reinstall the OS"
 date:       2018-3-22

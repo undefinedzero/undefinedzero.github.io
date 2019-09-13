@@ -1,5 +1,4 @@
 ---
-layout:     post
 title:      "macOS install ruby"
 subtitle:   "Test the Blog locally"
 date:       2018-11-6
