@@ -1,7 +1,33 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Power Runes Recognition"
+excerpt: "Recognize the handwriting digits in the real environment<br/><img src='/images/projects-1/small.gif'>"
 collection: projects
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+# "Power Runes" Recognition
+
+- Author: LIN JIANING
+- Date: 2018.5
+- Course: Image Processing
+- Hardware: MacBook Pro 
+- Language: Matlab
+- IDE: Matlab
+- Description: In this project, I finished a program that can recognize hand-writing characters in a real environment, and this project derived from Robomaster 2018 Robotics Competition.
+
+## RESULT
+
+### Pre-process
+
+|       Rough Process to find ROI       | Accurate Process to locate characters |
+| :-----------------------------------: | :-----------------------------------: |
+| ![process_rough](/images/projects-1/process_rough.gif) |   ![process_acc](/images/projects-1/process_acc.gif)   |
+
+### Recognition
+
+![CNN](./CNN.png)
+
+### Final Result
+
+| ![A](/images/projects-1/A.png)                         | ![C](/images/projects-1/C.png)                     |
+| ------------------------------------- | --------------------------------- |
+| ![outimg](/images/projects-1/outimg.png)               | ![Ze](/images/projects-1/Ze.png)                   |
