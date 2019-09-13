@@ -10,8 +10,6 @@ tags:
     - Ruby
 ---
 
-# macOS install ruby
-
 In order to test my blog locally, I installed `ruby` and `jekyll`on mac.
 
 ## rvm(Ruby Version Manager)

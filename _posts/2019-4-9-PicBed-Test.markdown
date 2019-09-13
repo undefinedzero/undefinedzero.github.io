@@ -8,8 +8,6 @@ tags:
     - Blog
 ---
 
-# 测试不同图床的效果
-
 ## PCL 合成无mask点云
 
 - i.loli图床（基于网站）[SM.MS](https://sm.ms/ "SM.MS")

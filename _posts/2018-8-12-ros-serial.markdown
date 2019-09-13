@@ -9,8 +9,6 @@ tags:
     - ROS
 ---
 
-# ROS_SERIAL //ROS 串口
-
 在搭实验室的SLAM小车的时候，由于底盘是用STM32F427做control的，因此需要和上层的TK1进行通讯。用串口协议进行通讯写起来比较简单，而且刚好有现成的设备，所以就选择了串口。最后实现的功能：TK1发送小车目标速度，STM32F427接收到数据后控制小车达到目标速度。
 
 ## Drivers
@@ -27,7 +25,7 @@ make load
 
 ## Program
 
-```C
+```
 #include <ros/ros.h> 
 #include <serial/serial.h>  //ROS已经内置了的串口包 
 #include <std_msgs/String.h> 

@@ -4,8 +4,6 @@ excerpt: "Recognize the handwriting digits in the real environment<br/><img src=
 collection: projects
 ---
 
-# "Power Runes" Recognition
-
 - Author: LIN JIANING
 - Date: 2018.5
 - Course: Image Processing

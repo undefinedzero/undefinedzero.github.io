@@ -9,8 +9,6 @@ tags:
     - Mac
 ---
 
-# macOS·重生
-
 由于要装Windows系统，我重新分了以一下区，所以macOS需要重装一下系统（然而后来还是把Windows格式化掉了hhh）
 
 ## 1. macOS 安装软件
