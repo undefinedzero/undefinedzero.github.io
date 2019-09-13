@@ -19,7 +19,7 @@ In order to test my blog locally, I installed `ruby` and `jekyll`on mac.
 1.install rvm
 
 ```shell
-curl -L get.rvm.io | bash -s stable  
+curl -L get.rvm.io | bash -s stable
 ```
 
 2.list all Ruby
