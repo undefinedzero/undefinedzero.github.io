@@ -24,7 +24,7 @@ collection: projects
 
 ### Recognition
 
-![CNN](./CNN.png)
+![CNN](/images/projects-1/CNN.png)
 
 ### Final Result
 
