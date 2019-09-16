@@ -9,4 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
- <iframe src="/files/CV.pdf" width="600" height="500"></iframe>
+<object data="/files/CV.pdf" type="application/pdf" width="600" height="500">
+    <embed src="/files/CV.pdf" width="600px" height="500px" />
+        <p>This browser does not support PDFs. Please download the PDF to view it: 
+        <a href="/files/CV.pdf">Download PDF</a>.</p>
+    </embed></object>
