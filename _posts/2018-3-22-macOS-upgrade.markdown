@@ -1,6 +1,6 @@
 ---
 title:      "Reinstall macOS"
-excerpt: "There is something wrong with my macbook, so I have to reinstall the OS.<br/><img src='/images/posts/post-macos.jpg'>"
+excerpt: "There is something wrong with my macbook, so I have to reinstall the OS.<br/><img src='/images/posts/post-macos.jpg' width='600'>"
 date:       2018-3-22
 author:     "LIN JIANING"
 header-img: "img/post-macos.jpg"

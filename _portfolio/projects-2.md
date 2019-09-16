@@ -1,6 +1,6 @@
 ---
 title: "Robomaster 2018 Robotics Competition"
-excerpt: "Recognize the handwriting digits in the real environment<br/><img src='/images/projects-2/hero.png' width='600'><br/><img src='/images/projects-2/visual-tracking.gif' width='600'>"
+excerpt: "Recognize the handwriting digits in the real environment<br/><img src='/images/projects-2/hero2.gif' width='600'>"
 collection: projects
 ---
 
