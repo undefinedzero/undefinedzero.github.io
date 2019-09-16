@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<embed src="/files/CV.pdf" width="600px" height="2100px" />
+ <iframe src="/files/CV.pdf" width="600" height="500"></iframe>

@@ -14,5 +14,4 @@ collection: projects
 
 <img src='/images/projects-2/system.png' width='600'>"
 
-## System Diagram
-
+## Demo
