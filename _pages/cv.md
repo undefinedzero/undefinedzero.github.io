@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+<embed src="/files/CV.pdf" width="800px" height="2100px" />
 Education
 ======
 * B.S. in Information Engineering, Zhejiang University, 2019
@@ -18,7 +19,7 @@ Work experience
 ======
 * June. 2018- June. 2019: Research Assistant
   * Zhejiang University
-  * Duties included: SLAM
+  * Research Aera: SLAM
   * Supervisor: Professor Git
 
 * Fall 2015: Research Assistant
