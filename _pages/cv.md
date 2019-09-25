@@ -14,3 +14,8 @@ redirect_from:
         <p>This browser does not support PDFs. Please download the PDF to view it: 
         <a href="/files/CV.pdf">Download PDF</a>.</p>
     </embed></object>
+
+<iframe src="http://docs.google.com/gview?
+    url="/files/CV.pdf&embedded=true"
+    style="width:600px; height:500px;" frameborder="0">
+</iframe>
