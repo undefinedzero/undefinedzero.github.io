@@ -12,6 +12,7 @@ collection: projects
 
 ## System Diagram(in Chinese)
 
-<img src='/images/projects-2/system.png' width='600'>"
+<img src='/images/projects-2/system.png' width='600'>
 
-## Demo
+## Competition Videos
+
