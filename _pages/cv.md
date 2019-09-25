@@ -15,6 +15,4 @@ redirect_from:
         <a href="/files/CV.pdf">Download PDF</a>.</p>
     </embed></object>
 
-<iframe src="http://docs.google.com/gview?url=https://undefinedzero.github.io/files/CV.pdf&embedded=true"
-    style="width:600px; height:500px;" frameborder="0">
-</iframe>
+<object width="400px" height="400px" data="/files/CV.pdf"></object>
