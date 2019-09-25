@@ -8,11 +8,9 @@ redirect_from:
 ---
 
 {% include base_path %}
-
+<a href="/files/CV.pdf">Download PDF</a>.</p>
 <object data="/files/CV.pdf" type="application/pdf" width="600" height="848">
     <embed src="/files/CV.pdf" width="600px" height="848px" />
         <p>This browser does not support PDFs. Please download the PDF to view it: 
         <a href="/files/CV.pdf">Download PDF</a>.</p>
     </embed></object>
-
-<object width="400px" height="400px" data="/files/CV.pdf"></object>
