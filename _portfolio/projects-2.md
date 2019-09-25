@@ -19,12 +19,9 @@ collection: projects
 <iframe width="1063" height="598" src="https://www.youtube.com/embed/8un8FP0ZSPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ###  Our team's videos (selected)
 #### Competition Replay (2018)
-<video width="770" height="433" controls>
-  <source src="https://cn-videos.dji.net/video_trans/eeeed3ea889c4bdeb8ab1823983cb02c/1080.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe width="1063" height="598" src="https://www.youtube.com/embed/bf98ESCAghU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #### Documentray Film
-<iframe  width="770" height="433" src="https://v.qq.com/txp/iframe/player.html?vid=h0026imc8wq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1063" height="598" src="https://www.youtube.com/embed/MV6D3pJ7-50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### More videos in Chinese
 
 [Competition Videos on RoboMaster Offical Website](https://www.robomaster.com/zh-CN/resource/video)
