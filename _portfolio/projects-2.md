@@ -19,10 +19,7 @@ collection: projects
 <iframe width="1063" height="598" src="https://www.youtube.com/embed/8un8FP0ZSPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ###  Our team's videos (selected)
 #### Competition Replay (2018)
-<video width="600" height="598" controls>
-  <source src="https://cn-videos.dji.net/video_trans/eeeed3ea889c4bdeb8ab1823983cb02c/1080.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<iframe frameborder="0" src="https://cn-videos.dji.net/video_trans/eeeed3ea889c4bdeb8ab1823983cb02c/" allowFullScreen="true"></iframe>
 
 #### Documentray Film
 <iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=h0026imc8wq" allowFullScreen="true"></iframe>
