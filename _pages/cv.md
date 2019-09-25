@@ -16,6 +16,6 @@ redirect_from:
     </embed></object>
 
 <iframe src="http://docs.google.com/gview?
-    url="/files/CV.pdf&embedded=true"
+    url=/files/CV.pdf&embedded=true"
     style="width:600px; height:500px;" frameborder="0">
 </iframe>
