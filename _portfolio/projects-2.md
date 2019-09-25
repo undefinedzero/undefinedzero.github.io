@@ -15,4 +15,8 @@ collection: projects
 <img src='/images/projects-2/system.png' width='600'>
 
 ## Competition Videos
+### RoboMaster 2019 Final Tournament Rules Video
+<iframe width="1063" height="598" src="https://www.youtube.com/embed/8un8FP0ZSPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+### More Videos in Chinese
+https://www.robomaster.com/zh-CN/resource/video
