@@ -8,7 +8,7 @@ tags:
     - Blog
 ---
 
-## PCL 合成无mask点云
+Test different PicBed for website
 
 - i.loli图床（基于网站）[SM.MS](https://sm.ms/ "SM.MS")
   ![Screenshot from 2019-03-09 17-44-14](https://i.loli.net/2019/04/09/5cac43e59ad87.png)
