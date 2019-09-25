@@ -1,5 +1,5 @@
 ---
-title: "Robomaster 2018 Robotics Competition"
+title: "Undergraduate Thesis"
 excerpt: "Reconstruct the 3D environment with semantic labels and vehicle orientations.<br/><img src='/images/projects-3/04-refined.gif' width='600'>"
 collection: projects
 ---
@@ -34,7 +34,7 @@ collection: projects
 <img src='/images/projects-3/semanticmap.png' width='600'>
 
 ## Vehicle Orientation Estimator in Real Environment(using Realsense)
-<img src='/images/projects-3/hardware.png' width='600'>
+<img src='/images/projects-3/real-environment.png' width='600'>
 
 ## Demo
-<img src='/images/projects-3/04-refined.png' width='600'>
+<img src='/images/projects-3/04-refined.gif' width='600'>
