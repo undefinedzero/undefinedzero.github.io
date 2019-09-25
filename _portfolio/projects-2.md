@@ -18,6 +18,9 @@ collection: projects
 ### RoboMaster 2019 Final Tournament Rules Video
 <iframe width="1063" height="598" src="https://www.youtube.com/embed/8un8FP0ZSPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### Our Videos
-<iframe width="1063" height="598" src="https://cn-videos.dji.net/video_trans/eeeed3ea889c4bdeb8ab1823983cb02c/1080.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="1063" height="598" controls>
+  <source src="https://cn-videos.dji.net/video_trans/eeeed3ea889c4bdeb8ab1823983cb02c/1080.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 ### More Videos in Chinese
 https://www.robomaster.com/zh-CN/resource/video
