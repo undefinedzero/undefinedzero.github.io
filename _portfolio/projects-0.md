@@ -1,6 +1,6 @@
 ---
-title: "ROB 535 Self-driving Car Kaggle Competition"
-excerpt: "TOP 1 out of 19 Teams in image classication task and TOP 3 out of 13 Teams in vehicle localization task<br/><img src='/images/rob535/kaggle-out.png' width='600'>"
+title: "ROB535 Kaggle Inclass Competition"
+excerpt: "TOP 1 out of 19 Teams in image classification task and TOP 3 out of 13 Teams in vehicle localization task<br/><img src='/images/rob535/kaggle-out.png' width='600'>"
 collection: projects
 ---
 
