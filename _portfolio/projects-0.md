@@ -8,7 +8,7 @@ collection: projects
 
 - Date: 2020.2 - 2020.4
 
-- Environment: i7-8600k + GTX 1080
+- Environment: Ubuntu 18.04 (i7-8600k + GTX 1080)
 
 - Language: C++
 
@@ -19,10 +19,10 @@ We attempt to improve upon the existing ICP algorithm of SuMa++. We attempted to
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GOJdxepvooA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Performance Comparison in KITTI Dataset Sequence 00
+
 | Rotation Error | Translation Error |
 | :------------: |:----------------: |
 | ![rl](/images/suma/00_rl.png) | ![tl](/images/suma/00_tl.png) |
 
 ## More Details
 Project Website: [http://www-personal.umich.edu/~zeph/sumaem.html](http://www-personal.umich.edu/~zeph/sumaem.html)
-
