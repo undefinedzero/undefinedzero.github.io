@@ -19,9 +19,9 @@ We attempt to improve upon the existing ICP algorithm of SuMa++. We attempted to
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GOJdxepvooA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Performance Comparison in KITTI Dataset Sequence 00
-|       Rotation Error       | Translation Error |
-| :---: |:---: |
-|![rl](/images/suma/00_rl.png)|![tl](/images/suma/00_tl.png)|
+| Rotation Error | Translation Error |
+| :------------: |:----------------: |
+| ![rl](/images/suma/00_rl.png) | ![tl](/images/suma/00_tl.png) |
 
 ## More Details
 Project Website: [http://www-personal.umich.edu/~zeph/sumaem.html](http://www-personal.umich.edu/~zeph/sumaem.html)
