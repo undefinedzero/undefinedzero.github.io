@@ -1,20 +1,28 @@
 ---
-title: "ROB535 Self-driving Car Kaggle Inclass Competition"
-excerpt: "TOP 1 out of 19 Teams in image classification task and TOP 3 out of 13 Teams in vehicle localization task<br/><img src='/images/rob535/kaggle-out.png' width='600'>"
+title: "SuMaEM: Efficient LiDAR-based Semantic SLAM with EM ICP"
+excerpt: "Improved the original Semantic ICP in SuMa ++ with Semantic ICP through Expectation-Maximization<br/><img src='/images/suma/suma.png' width='600'>"
 collection: projects
 ---
 
-- Author: LIN JIANING (Leader of Team 15 🚗)
+- Author: LIN JIANING
 
-- Date: 2019.10 - 2019.12
+- Date: 2020.2 - 2020.4
 
-- Environment: Google colab
+- Environment: i7-8600k + GTX 1080
 
-- Language: Python
+- Language: C++
 
 ## Abtract
-A number of successful object detection systems based on convolutional neural networks (CNN) have been proposed in recent years. The autonomous vehicle is rely on the object detection system using the data from Lidar, Radar, and camera sensors. Mask R-CNN, which extends Faster R-CNN by adding a branch for predicting segmentation masks on each Region of Interest (ROI), is one of the best architecture that can achieve the state of the art performance for object detection. Mask R-CNN is a two-stage detector, images are processed by a feature extractor (e.g., ResNet, ResNeXt) at the first stage. claims that replacing ResNet-101-FPN feature extractor with ResNeXt-101-FPN in Mask R-CNN framework can significantly improve the detection accuracy. Based on this, we propose that deeper feature extractors, which can extract more representative features, could improve the performance of Mask R-CNN detection system. In this project, we start with a Mask R-CNN with ResNeXt-152 model trained on COCO dataset, and fine-tune the model with the given training dataset. Our final test result can achieve 84.102% detection accuracy in Kaggle task 1.
+We attempt to improve upon the existing ICP algorithm of SuMa++. We attempted to enhance the algorithm through Expectation-Maximization concepts. We mainly incorporated correntropy to utilize the last error of ICP and confusion matrix of labels to make full use of semantic associations. We evaluate our algorithm on KITTI Dataset and our experimental results show that adding correntropy does improve the performance when the paths are initially smooth because we maintain fewer effective points. Our methods will increase the error in some sequence with abrupt changes near the start of the path. However, adding confusion matrix of labels on top of correntropy can make the algorithm more stable, which makes our algorithm performs better in sequences with such rapid changes, i.e sequence 01.
 
-## Kaggle Leaderboard
-<img src='/images/rob535/kaggle.png' width='600'>
+## Videos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GOJdxepvooA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Performance Comparison in KITTI Dataset Sequence 00
+|       Rotation Error       | Translation Error |
+| :---: |:---: |
+|![rl](/images/suma/00_rl.png)|![tl](/images/suma/00_tl.png)|
+
+## More Details
+Project Website: [http://www-personal.umich.edu/~zeph/sumaem.html](http://www-personal.umich.edu/~zeph/sumaem.html)
 
