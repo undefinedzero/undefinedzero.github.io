@@ -10,6 +10,7 @@ date: 2019-7-1
 - Hardware: STM32F427(microprocesser for control) + Jetson TX2(mini PC for image processing)
 - Language: C/C++
 - Description: In RoboMaster 2016 Competition, I was a player in charge of controlling robots. In RoboMaster 2018 Competition, I transformed to a developer, and worked in a multidisciplinary team, which consist 30 students from different majors, like computer science, electrical engineering, mechanical engineering, management, etc. During this competition, I was the leader of robot HERO team, mainly responsible for the electronic system of the robot. Meanwhile, I also implement visual tracking algorithm for the robot, which allows it tracking and shooting its opposite without human control. In RoboMaster 2019 Competition, I was a leader of the robot vision group, responsible for improving the visual tracking system in both hardware and software level.
+ - Github Link: [https://github.com/HelloWorldTeam](https://github.com/HelloWorldTeam)
 
 ## System Diagram for HERO(2018)(in Chinese)
 
