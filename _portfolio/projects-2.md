@@ -2,6 +2,7 @@
 title: "Undergraduate Thesis"
 excerpt: "Reconstruct the 3D environment with semantic labels and vehicle orientations.<br/><img src='/images/projects-3/04-refined.gif' width='600'>"
 collection: projects
+date: 2019-5-30
 ---
 
 - Author: LIN JIANING

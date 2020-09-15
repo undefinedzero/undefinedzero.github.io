@@ -2,6 +2,7 @@
 title: "Robomaster Robotics Competition"
 excerpt: "I was responsible for the electronic system and visual traking system of a robot named HERO, which is showed below.<br/><img src='/images/projects-2/hero2.gif' width='600'>"
 collection: projects
+date: 2019-7-1
 ---
 
 - Author: LIN JIANING

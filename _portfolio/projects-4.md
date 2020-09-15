@@ -2,6 +2,7 @@
 title: "Power Runes Recognition"
 excerpt: "Recognize the handwriting digits in the real environment<br/><img src='/images/projects-1/small.gif' height='600' width='600'>"
 collection: projects
+date: 2018-5-12
 ---
 
 - Author: LIN JIANING

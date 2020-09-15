@@ -2,6 +2,7 @@
 title: "SuMaEM: Efficient LiDAR-based Semantic SLAM with EM ICP"
 excerpt: "Improved the original Semantic ICP in SuMa ++ with Semantic ICP through Expectation-Maximization<br/><img src='/images/suma/suma.png' width='600'>"
 collection: projects
+date: 2020-4-11
 ---
 
 - Author: LIN JIANING
