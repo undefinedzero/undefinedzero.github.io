@@ -5,7 +5,7 @@ collection: projects
 date: 2018-5-12
 ---
 
-- Author: LIN JIANING
+- Author: Jianing Lin, Yuanhao Xiong
 - Date: 2018.5
 - Course: Image Processing
 - Hardware: MacBook Pro 
@@ -13,6 +13,8 @@ date: 2018-5-12
 - IDE: Matlab
 - Description: In this project, I finished a program that can recognize hand-writing characters in a real environment, and this project derived from Robomaster 2018 Robotics Competition.
 - Github Link: [https://github.com/undefinedzero/Power-Runes-Recognition](https://github.com/undefinedzero/Power-Runes-Recognition)
+
+
 ## RESULT
 
 ### Pre-process

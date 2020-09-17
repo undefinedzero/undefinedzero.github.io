@@ -5,7 +5,7 @@ collection: projects
 date: 2019-5-30
 ---
 
-- Author: LIN JIANING
+- Author: Jianing Lin
 
 - Date: 2018.9 - 2019.5
 

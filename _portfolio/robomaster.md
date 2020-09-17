@@ -5,7 +5,7 @@ collection: projects
 date: 2019-7-1
 ---
 
-- Author: LIN JIANING
+- Author: Jianing Lin
 - Date: 2017.10 - 2019.7
 - Hardware: STM32F427(microprocesser for control) + Jetson TX2(mini PC for image processing)
 - Language: C/C++

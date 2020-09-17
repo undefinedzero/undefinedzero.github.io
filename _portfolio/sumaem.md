@@ -5,15 +5,17 @@ collection: projects
 date: 2020-4-11
 ---
 
-- Author: LIN JIANING
+- Author: Jianing Lin, Jeremy Lu, Shih An Pan, and Zephaniah Hill
 
 - Date: 2020.2 - 2020.4
 
-- Environment: Ubuntu 18.04 (i7-8600k + GTX 1080)
+- Environment: Ubuntu 18.04 (i5-8600k + GTX 1080)
 
 - Language: C++
 
 - Github Link: [https://github.com/anthonypan08/568_final_project](https://github.com/anthonypan08/568_final_project)
+
+
 ## Abtract
 We attempt to improve upon the existing ICP algorithm of SuMa++. We attempted to enhance the algorithm through Expectation-Maximization concepts. We mainly incorporated correntropy to utilize the last error of ICP and confusion matrix of labels to make full use of semantic associations. We evaluate our algorithm on KITTI Dataset and our experimental results show that adding correntropy does improve the performance when the paths are initially smooth because we maintain fewer effective points. Our methods will increase the error in some sequence with abrupt changes near the start of the path. However, adding confusion matrix of labels on top of correntropy can make the algorithm more stable, which makes our algorithm performs better in sequences with such rapid changes, i.e sequence 01.
 
